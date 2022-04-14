@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: poppins;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+h1.title{
+    text-align: center;
+    color: blue;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-section{
+    height: 500px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width img{
+    width: 80%;
+    height: 80%;
+
+}
+.half-width p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.blue-highlight{
+    color: blue;
+}
+.button{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.button:hover{
+    color: blue;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.dream-area{
+    height: 650px;
+    background-image: url("images/dream-bg.png") ;
+    background-repeat: no-repeat;
+    background-position: right 350px;
+    margin-bottom: 100px;
+}
+.exprience-area{
+    height: 600px;
+}
+.exprience-area .border{
+    padding: 30px;
+    border-left: 8px solid rgb(255, 0, 200);
+    background-image: linear-gradient(rgb(241, 225, 195), rgb(179, 179, 248));
+    box-shadow: 0px 0px 20px gray;
+}
+.exprience-area:hover{
+    background-color: white;
+}
+
+.footer{
+    border-top: 1px solid gray;
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.footer a{
+    text-decoration: none;
+}
